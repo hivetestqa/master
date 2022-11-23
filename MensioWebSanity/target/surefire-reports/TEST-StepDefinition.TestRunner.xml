@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="38" failures="0" name="StepDefinition.TestRunner" time="3,973.091" errors="1" skipped="2">
+  <properties>
+    <property name="JOB_NAME" value="Mensio Automation Trial 1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/40/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="79c1de578e80f68b"/>
+    <property name="POM_ARTIFACTID" value="MensioWebSanity"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="MensioWebSanity"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\SHRAD~1.LAP\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="shraddha"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Mensio Automation Trial 1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/40/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#40"/>
+    <property name="OneDrive" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Local"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="shraddha"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="40"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="C000013A"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/40/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\SHRAD~1.LAP\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/40/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-AE3NJ1FK"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\shrad.LAPTOP-AE3NJ1FK"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="LAPTOP-AE3NJ1FK"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="MensioWebSanity"/>
+    <property name="user.home" value="C:\Users\shrad.LAPTOP-AE3NJ1FK"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Mensio Automation Trial 1-40"/>
+    <property name="JENKINS_SERVER_COOKIE" value="79c1de578e80f68b"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\shrad.LAPTOP-AE3NJ1FK"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Local\Microsoft\WindowsApps;C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Roaming"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="java.class.path" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\war\WEB-INF\lib\remoting-3044.vb_940a_a_e4f72e.jar C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 51691"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Local\Microsoft\WindowsApps;C:\Users\shrad.LAPTOP-AE3NJ1FK\AppData\Local\GitHubDesktop\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHRAD~1.LAP\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/40/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\git\master\MensioWebSanity"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Mensio%20Automation%20Trial%201/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-AE3NJ1FK"/>
+    <property name="USERDOMAIN" value="LAPTOP-AE3NJ1FK"/>
+    <property name="MAVEN_HOME" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="40"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\shrad.LAPTOP-AE3NJ1FK"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\workspace\Mensio Automation Trial 1@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\workspace\Mensio Automation Trial 1"/>
+    <property name="maven3.interceptor.common" value="C:\Users\shrad.LAPTOP-AE3NJ1FK\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="Check the login feature of Mensio Web Application" name="To verify that user is able to login using valid credentials" time="10.572"/>
+  <testcase classname="Check all items visibility on home screen" name="Verify all the Branded Content Cards are visible" time="0.172"/>
+  <testcase classname="Check all items visibility on home screen" name="Verify all the Ad Intelligence Cards are visible" time="0.109"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Summary Metrics chart is loading properly" time="123.029"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Share of Voice chart is loading properly" time="12.762"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Exposure Trends chart is loading properly" time="3.02"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Visual Exposure - By Brand chart is loading properly" time="30.056"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Visual Exposure By Brand Asset Type chart is loading properly" time="37.842"/>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Visual Exposure - By Program chart is loading properly" time="7.34">
+    <skipped/>
+    <system-out>
+@Sanity @Sanity @ByProgram @VisualExposure
+Scenario: Verify that Visual Exposure - By Program chart is loading properly # src/test/resources/Features/3TelevisionByBrand.feature:42
+  When user click on By Program sidemenu option                              # StepDefinition.TelevisionByBrand.user_click_on_By_Program_sidemenu_option()
+  Then user click on Submit after choosing program and episode               # StepDefinition.TelevisionByBrand.user_click_on_Submit_after_choosing_program_and_episode()
+  Then By Program data gets loaded and table is visible                      # null
+  And take screenshot of By Program chart                                    # null
+</system-out>
+  </testcase>
+  <testcase classname="Check all the charts are loading properly in TelevisionByBrand" name="Verify that Verbal Exposure - By Brand chart is loading properly" time="4.799"/>
+  <testcase classname="Check all charts are loading properly in TelevisionByTeam" name="Verify that By Brand and team chart is loading properly" time="120.982"/>
+  <testcase classname="Check all charts are loading properly in TelevisionByTeam" name="Verify that By Brand Team Asset Type chart is loading properly" time="128.713"/>
+  <testcase classname="Check all charts are loading properly in TelevisionByTeam" name="Verify that Verbal By Brand and Team chart is loading properly" time="120.567"/>
+  <testcase classname="Check all charts are loading properly in Television - Team as Brand" name="Verify that Team Summary Beta chart is loading properly" time="121.466"/>
+  <testcase classname="Check all charts are loading properly in Television - Team as Brand" name="Verify that League Summary Beta chart is loading properly" time="120.587"/>
+  <testcase classname="Check all charts are loading properly in Television - Team as Brand" name="Verify that Team Deep Dive Chart is loading properly" time="120.388"/>
+  <testcase classname="Check all charts are loading properly in Streaming Originals" name="Verify that charts in Streaming Summary Insights are loading properly" time="121.292"/>
+  <testcase classname="Check all charts are loading properly in Streaming Originals" name="Verify that charts in Streaming Brand Deep Dive are loading properly" time="120.402"/>
+  <testcase classname="Check all charts are loading properly in Streaming Originals" name="Verify that charts in Platform-Wide Insight are loading properly" time="121.389"/>
+  <testcase classname="Check all charts are loading properly in Theatrical Releases" name="Verify that charts in Summary Insights are loading properly" time="121.332"/>
+  <testcase classname="Check all charts are loading properly in Theatrical Releases" name="Verify that charts in Brand Deep Dive are loading properly" time="120.16">
+    <skipped/>
+    <system-out>
+@Sanity @Sanity @TheatricalReleases @THBrandDeepDive
+Scenario: Verify that charts in Brand Deep Dive are loading properly # src/test/resources/Features/7TheatricalReleases.feature:15
+  When user click on TH Brand Deep Dive sidemenu option              # StepDefinition.Theatrical.user_click_on_TH_Brand_Deep_Dive_sidemenu_option()
+  Then TH Brand Summary chart gets loaded                            # StepDefinition.Theatrical.TH_Brand_Summary_chart_gets_loaded()
+  And take screenshot of TH Brand Summary chart                      # null
+</system-out>
+  </testcase>
+  <testcase classname="Check all charts are loading properly in Theatrical Releases" name="Verify that charts in Theatrical Insights are loading properly" time="122.175"/>
+  <testcase classname="Check all charts are loading properly in Social" name="Verify that charts in Social Summary Insights are loading properly" time="121.219"/>
+  <testcase classname="Check all charts are loading properly in Social" name="Verify that charts in Social Brand Deep Dive are loading properly" time="120.72"/>
+  <testcase classname="Check all charts are loading properly in Social" name="Verify that charts in Social Platform Wide Insights are loading properly" time="120.775"/>
+  <testcase classname="Check all the charts are loading properly in National TV Ad Intelligence Chart" name="Verify that National TV Ad Intelligence Summary Metrics chart is loading properly" time="121.361"/>
+  <testcase classname="Check all the charts are loading properly in National TV Ad Intelligence Chart" name="Verify that National TV Ad Intelligence Delivery Trends chart is loading properly" time="121.368"/>
+  <testcase classname="Check all the charts are loading properly in National TV Ad Intelligence Chart" name="Verify that National TV Ad Intelligence Mix Benchmarks chart is loading properly" time="120.752"/>
+  <testcase classname="Check all the charts are loading properly in Cross Platform Ad Intelligence Chart" name="Verify that Cross Platform Share of Voice by Brand chart is loading properly" time="126.436"/>
+  <testcase classname="Check all the charts are loading properly in Cross Platform Ad Intelligence Chart" name="Verify that Cross Platform Indexed Spend by Channel chart is loading is properly" time="121.506"/>
+  <testcase classname="Check all the charts are loading properly in Cross Platform Ad Intelligence Chart" name="Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly" time="1.724">
+    <error message="element click intercepted: Element &lt;div class=&quot;jss6203&quot;&gt;...&lt;/div&gt; is not clickable at point (1189, 73). Other element would receive the click: &lt;div class=&quot;jss11&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AE3NJ1FK&apos;, ip: &apos;192.168.0.242&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 373da5d029369e5bf5f21fdadbf15b9d" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;jss6203&quot;&gt;...&lt;/div&gt; is not clickable at point (1189, 73). Other element would receive the click: &lt;div class=&quot;jss11&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AE3NJ1FK&apos;, ip: &apos;192.168.0.242&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 373da5d029369e5bf5f21fdadbf15b9d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at StepDefinition.CrossPlatformAdIntelligence.user_click_on_Indexed_Spend_Matrix_by_Brand_Owner(CrossPlatformAdIntelligence.java:117)
+	at ✽.user click on Indexed Spend Matrix by Brand Owner(file:///C:/Users/shrad.LAPTOP-AE3NJ1FK/git/master/MensioWebSanity/src/test/resources/Features/91CrossPlatformAdIntelligence.feature:31)
+</error>
+    <system-out>
+@Sanity @Sanity @AdIntelligence @CrossPlatform @CrossIndexedSpendMatrixbyChannel
+Scenario: Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly # src/test/resources/Features/91CrossPlatformAdIntelligence.feature:26
+  When user scroll down to Indexed Spend Matrix by Channel section                             # StepDefinition.CrossPlatformAdIntelligence.user_scroll_down_to_Indexed_Spend_Matrix_by_Channel_section()
+  Then Indexed Spend Matrix by Channel chart gets loaded                                       # StepDefinition.CrossPlatformAdIntelligence.Indexed_Spend_Matrix_by_Channel_chart_gets_loaded()
+  And take screenshot of Indexed Spend Matrix by Channel chart                                 # StepDefinition.CrossPlatformAdIntelligence.take_screenshot_of_Indexed_Spend_Matrix_by_Channel_chart()
+  Then user click on Indexed Spend Matrix by Brand Owner                                       # StepDefinition.CrossPlatformAdIntelligence.user_click_on_Indexed_Spend_Matrix_by_Brand_Owner()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;jss6203&quot;&gt;...&lt;/div&gt; is not clickable at point (1189, 73). Other element would receive the click: &lt;div class=&quot;jss11&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AE3NJ1FK&apos;, ip: &apos;192.168.0.242&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 373da5d029369e5bf5f21fdadbf15b9d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at StepDefinition.CrossPlatformAdIntelligence.user_click_on_Indexed_Spend_Matrix_by_Brand_Owner(CrossPlatformAdIntelligence.java:117)
+	at ?.user click on Indexed Spend Matrix by Brand Owner(file:///C:/Users/shrad.LAPTOP-AE3NJ1FK/git/master/MensioWebSanity/src/test/resources/Features/91CrossPlatformAdIntelligence.feature:31)
+
+  Then Indexed Spend Matrix by Brand Owner chart gets loaded                                   # StepDefinition.CrossPlatformAdIntelligence.Indexed_Spend_Matrix_by_Brand_Owner_chart_gets_loaded()
+  And take screenshot of Indexed Spend Matrix by Brand Onwer chart                             # StepDefinition.CrossPlatformAdIntelligence.take_screenshot_of_Indexed_Spend_Matrix_by_Brand_Onwer_chart()
+</system-out>
+  </testcase>
+  <testcase classname="Check all the charts are loading properly in Cross Platform Ad Intelligence Chart" name="Verify that Cross Platform Commercial Mix chart is loading properly" time="241.617"/>
+  <testcase classname="Check all the charts are loading properly in Cross Platform Ad Intelligence Chart" name="Verify that Cross Platform Delivery Trend Charts are loading properly" time="483.568"/>
+  <testcase classname="Check all the charts are loading properly in National TV ecpm Chart" name="Verify that all charts in National TV eCPM market benchmark are loading properly" time="186.675"/>
+  <testcase classname="Check all the charts are loading properly in National TV ecpm Chart" name="Verify that all charts in National TV eCPM Network Benchmark are loading properly" time="122.082"/>
+  <testcase classname="Check all the charts are loading properly in National TV ecpm Chart" name="Verify that all charts in National TV eCPM Audience Benchmark are loading properly" time="121.554"/>
+  <testcase classname="Check all the charts are loading properly in National TV ecpm Chart" name="Verify that all charts in National TV eCPM Audience Efficiency are loading properly" time="120.755"/>
+  <testcase classname="Check all the creatives are loading properly in Creative Explorer" name="Verify that Creative Explorer is loading properly" time="31.825"/>
+</testsuite>
