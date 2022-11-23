@@ -39,7 +39,7 @@ public static void Chrome()
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	driver.manage().window().maximize();
-	driver.navigate().to(STG);
+	driver.navigate().to(PROD);
     System.out.println("User is on the login screen");	
 }
 
@@ -52,7 +52,7 @@ public static void Screenshot(String FolderName, String name) {
 	Screenshot screenshot = new AShot().takeScreenshot(driver); 
     try {
     
-		ImageIO.write(screenshot.getImage(), "png", new File(projectPath+"/target/Screenshots/"+FolderName+"/"+name+".png"));
+		ImageIO.write(screenshot.getImage(), "png", new File(projectPath+"/src/Screenshots/"+FolderName+"/"+name+".png"));
 
 	} catch (IOException e) {
 		// TODO Auto-generated catch block

@@ -23,10 +23,10 @@ public void user_is_on_the_login_screen() {
 
 @When("^user enter email and password$")
 public void user_enter_email_and_password() {
-//	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[1]/div/input")).sendKeys("testqa@thehive.ai");
-//	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[2]/div/input")).sendKeys("Tester@1234");
-	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[1]/div/input")).sendKeys("manusingh@thehive.ai");
-	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[2]/div/input")).sendKeys("Macmohan39");
+	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[1]/div/input")).sendKeys("testqa@thehive.ai");
+	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[2]/div/input")).sendKeys("Tester@1234");
+//	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[1]/div/input")).sendKeys("manusingh@thehive.ai");
+//	driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div/form/div[2]/div/input")).sendKeys("Macmohan39");
 	System.out.println("User entered valid email and password");
 }
 
