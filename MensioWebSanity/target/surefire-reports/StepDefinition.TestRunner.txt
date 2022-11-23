@@ -1,15 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: StepDefinition.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 38, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 3,973.467 sec <<< FAILURE!
-Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly(Check all the charts are loading properly in Cross Platform Ad Intelligence Chart)  Time elapsed: 1.724 sec  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="jss6203">...</div> is not clickable at point (1189, 73). Other element would receive the click: <div class="jss11">...</div>
+Tests run: 38, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 3,919.068 sec <<< FAILURE!
+Verify that Cross Platform Indexed Spend by Channel chart is loading is properly(Check all the charts are loading properly in Cross Platform Ad Intelligence Chart)  Time elapsed: 0.503 sec  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"contents-container\"]/div/div[2]/div[3]/div[1]/div[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"contents-container\"]/div/div[2]/div[3]/div[1]/div[2]' is not a valid XPath expression.
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AE3NJ1FK', ip: '192.168.0.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61b711efc6c6724840c577424cbd533e
+*** Element info: {Using=xpath, value=//*[@id=\"contents-container\"]/div/div[2]/div[3]/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at StepDefinition.CrossPlatformAdIntelligence.user_click_on_Indexed_Spend_by_Brand_Owner(CrossPlatformAdIntelligence.java:80)
+	at ?.user click on Indexed Spend by Brand Owner(file:///C:/Users/shrad.LAPTOP-AE3NJ1FK/git/master/MensioWebSanity/src/test/resources/Features/91CrossPlatformAdIntelligence.feature:21)
+
+Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly(Check all the charts are loading properly in Cross Platform Ad Intelligence Chart)  Time elapsed: 1.461 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="jss5981">...</div> is not clickable at point (1189, 73). Other element would receive the click: <div class="jss11">...</div>
   (Session info: chrome=107.0.5304.107)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-AE3NJ1FK', ip: '192.168.0.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 373da5d029369e5bf5f21fdadbf15b9d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61b711efc6c6724840c577424cbd533e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

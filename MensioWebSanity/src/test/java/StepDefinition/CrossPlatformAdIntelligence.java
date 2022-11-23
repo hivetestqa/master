@@ -77,7 +77,7 @@ public class CrossPlatformAdIntelligence extends CommonUtilities {
 	
 	@Then("^user click on Indexed Spend by Brand Owner")
 	public void user_click_on_Indexed_Spend_by_Brand_Owner() throws InterruptedException {
-		driver.findElement(By.xpath("//*[@id=\\\"contents-container\\\"]/div/div[2]/div[3]/div[1]/div[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div[3]/div[1]/div[2]")).click();
 		Thread.sleep(120000);
 	}
 	
