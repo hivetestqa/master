@@ -134,13 +134,24 @@ public class TelevisionByBrand extends CommonUtilities{
 	}
 	
 	@Then("^user click on Submit after choosing program and episode")
-	public void user_click_on_Submit_after_choosing_program_and_episode() {
+	public void user_click_on_Submit_after_choosing_program_and_episode() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='contents-container']/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div")));
-		driver.findElement(By.xpath("//*[@id='contents-container']/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div")).click();
-		WebElement we = driver.findElement(By.xpath("//div[2]/div[2]/div[2]/div/div/div/div/div/div/div/input"));
-		we.sendKeys("noche");
-		we.sendKeys(Keys.RETURN);
+		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
+		driver.findElement(By.xpath("//div[2]/div[2]/div[2]/div/div/div/div/div/div/div/input")).sendKeys("Inside the NBA"+"\n");
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[3]/div/div")).click();
+		driver.findElement(By.xpath("//div[3]/div/div/div/div/div/div/div/input")).sendKeys("Untitled"+"\n");
+		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[5]")).click();
+	//	WebDriverWait wait1 = new WebDriverWait(driver,100);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/table/thead/tr/th[1]")));
+		
+	}
+	
+	@And("take screenshot of byprogram chart")
+	public void take_screenshot_of_byprogram_chart()
+	{
+		CommonUtilities.Screenshot("TelevisionByBrand", "ByProgram");
 	}
 		
 ///////Verify that Verbal Exposure - By Brand chart is loading properly////////
