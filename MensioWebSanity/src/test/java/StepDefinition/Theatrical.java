@@ -63,6 +63,12 @@ public class Theatrical extends CommonUtilities {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/table/thead/tr/th[1]")));
 	}
 	
+	@And("^take screenshot of TH Brand Summary chart")
+	public void take_screenshot_of_TH_Brand_Summary_chart()
+	{
+		CommonUtilities.Screenshot("Theatrical", "Branddeepdive");
+	}
+	
 	//////Verify that charts in Theatrical Insights are loading properly/////
 	
 	@When("^user click on Theatrical Insights sidemenu option")

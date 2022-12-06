@@ -143,10 +143,16 @@ public class TelevisionByBrand extends CommonUtilities{
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[3]/div/div")).click();
 		driver.findElement(By.xpath("//div[3]/div/div/div/div/div/div/div/input")).sendKeys("Untitled"+"\n");
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[5]")).click();
-	//	WebDriverWait wait1 = new WebDriverWait(driver,100);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/table/thead/tr/th[1]")));
-		
+
 	}
+	
+	@Then("^By Program data gets loaded and table is visible")
+	public void By_Program_data_gets_loaded_and_table_is_visible() 
+	{
+		WebDriverWait wait = new WebDriverWait(driver,100);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/table/thead/tr/th[1]")));
+			
+	}	
 	
 	@And("take screenshot of byprogram chart")
 	public void take_screenshot_of_byprogram_chart()

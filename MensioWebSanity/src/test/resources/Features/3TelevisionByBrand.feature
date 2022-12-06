@@ -44,7 +44,7 @@ Scenario: Verify that Visual Exposure - By Program chart is loading properly
 When user click on By Program sidemenu option
 Then user click on Submit after choosing program and episode 
 Then By Program data gets loaded and table is visible
-And take screenshot of By Program chart
+And take screenshot of byprogram chart
 
 @Sanity @VerbalExposure @VerbalByBrand
 Scenario: Verify that Verbal Exposure - By Brand chart is loading properly
