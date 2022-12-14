@@ -41,9 +41,11 @@ public void user_click_on_login_button() {
 public void user_is_navigated_to_home_screen() {
 	WebElement HomeElement = driver.findElement(By.xpath("//*[@id=\"home-main-scrollable-container\"]/div[1]/div/span"));
 	Assert.assertEquals(true, HomeElement.isDisplayed());
-	driver.findElement(By.className("jss121")).click();
+	driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/a[1]")).click();
 	System.out.println("User navigated to home screen");
-	driver.findElement(By.xpath("//*[name()='svg']//*[local-name()='g']//*[local-name()='path' and @d='M13 1L1 13M1 1l12 12']")).click(); // line for closing updates tab
+	
+	// Commentted out after 9th December release//
+	//driver.findElement(By.xpath("//*[name()='svg']//*[local-name()='g']//*[local-name()='path' and @d='M13 1L1 13M1 1l12 12']")).click(); // line for closing updates tab
 }
 
 @And("^take screenshot$")
