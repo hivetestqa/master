@@ -86,8 +86,10 @@ public class NBCU extends CommonUtilities {
 
 	@Then("^user choose brand$")
 	public void user_choose_brand() throws InterruptedException {
-		Thread.sleep(30000);
-		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[4]")).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 100); 
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"contents-container\"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[4]")));
+		element.click();
 		Thread.sleep(20000);
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/div[1]/div/div/div")).click();
 		driver.findElement(By.xpath("//input")).sendKeys("Ford"+"\n");
@@ -304,8 +306,10 @@ public class NBCU extends CommonUtilities {
 	{
 	
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[9]/a")).click(); // clicking on verbal by brand tab 
-		Thread.sleep(15000);	
-		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/div[1]/div/div")).click(); // to select brand
+		Thread.sleep(15000);		
+		WebDriverWait wait1 = new WebDriverWait(driver, 100); 
+		WebElement element = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/div[1]/div/div")));
+		element.click();		
 		driver.findElement(By.xpath("//input")).sendKeys("Ford"+"\n");
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/div[2]/div/div")).click(); // click on date filter
 		driver.findElement(By.xpath("/html/body/div[2]/div[3]/div/div/div/div/div[3]/div[1]/div[1]/div[1]/div")).click(); // clear start date
