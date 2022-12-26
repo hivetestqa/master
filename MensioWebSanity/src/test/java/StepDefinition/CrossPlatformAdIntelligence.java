@@ -113,9 +113,10 @@ public class CrossPlatformAdIntelligence extends CommonUtilities {
 	}
 	
 	@Then("^user click on Indexed Spend Matrix by Brand Owner")
-	public void user_click_on_Indexed_Spend_Matrix_by_Brand_Owner() throws InterruptedException {
-		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div[3]/div[1]/div[2]")).click();
+	public void user_click_on_Indexed_Spend_Matrix_by_Brand_Owner() throws InterruptedException 
+	{
 		Thread.sleep(120000);
+		driver.findElement(By.xpath("/html/body/div/div[2]/div/div/div[2]/div[3]/div[1]/div[2]")).click();
 	}
 	
 	@Then("^Indexed Spend Matrix by Brand Owner chart gets loaded")

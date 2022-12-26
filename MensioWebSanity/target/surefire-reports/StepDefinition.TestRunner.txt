@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: StepDefinition.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4,477.476 sec <<< FAILURE!
-Verify that NBCU Verbal Exposure By Brand chart loads properly(Check all the charts in NBCU Custom Module)  Time elapsed: 16.289 sec  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class=" css-14jk2my-container">...</div> is not clickable at point (429, 224). Other element would receive the click: <div class="jss8827">...</div>
+Tests run: 49, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4,596.75 sec <<< FAILURE!
+Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly(Check all the charts are loading properly in Cross Platform Ad Intelligence Chart)  Time elapsed: 121.692 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="jss5790 jss5791">...</div> is not clickable at point (1189, 73). Other element would receive the click: <div class="jss11">...</div>
   (Session info: chrome=108.0.5359.125)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-AE3NJ1FK', ip: '192.168.0.123', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b51cf56256464544f269339ec079b4a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\SHRAD~1.LAP\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93dd1386147dd99d7558ecf907c52ce2
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -23,6 +23,6 @@ Session ID: 0b51cf56256464544f269339ec079b4a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at StepDefinition.NBCU.NBCU_Verbal_bybrand_chart(NBCU.java:308)
-	at ?.NBCU Verbal bybrand chart(file:///C:/Users/shrad.LAPTOP-AE3NJ1FK/git/master/MensioWebSanity/src/test/resources/Features/94NBCU.feature:55)
+	at StepDefinition.CrossPlatformAdIntelligence.user_click_on_Indexed_Spend_Matrix_by_Brand_Owner(CrossPlatformAdIntelligence.java:119)
+	at ?.user click on Indexed Spend Matrix by Brand Owner(file:///C:/Users/shrad.LAPTOP-AE3NJ1FK/git/master/MensioWebSanity/src/test/resources/Features/91CrossPlatformAdIntelligence.feature:31)
 

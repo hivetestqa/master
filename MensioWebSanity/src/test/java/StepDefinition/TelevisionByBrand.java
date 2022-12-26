@@ -138,10 +138,10 @@ public class TelevisionByBrand extends CommonUtilities{
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='contents-container']/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div")));
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
-		driver.findElement(By.xpath("//div[2]/div[2]/div[2]/div/div/div/div/div/div/div/input")).sendKeys("Inside the NBA"+"\n");
+		driver.findElement(By.xpath("//div[2]/div[2]/div[2]/div/div/div/div/div/div/div/input")).sendKeys("NBA Basketball"+"\n");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[3]/div/div")).click();
-		driver.findElement(By.xpath("//div[3]/div/div/div/div/div/div/div/input")).sendKeys("Untitled"+"\n");
+		driver.findElement(By.xpath("//div[3]/div/div/div/div/div/div/div/input")).sendKeys("Atlanta"+"\n");
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[5]")).click();
 
 	}

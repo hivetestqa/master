@@ -5,9 +5,12 @@ Feature: Check all the charts in NBCU Custom Module
 Scenario: Verify that NBCU Card is clickable and loads properly
 When user click on NBCU card
 
-Scenario: Verify that NBCU Summary metrics charts loads properly
+Scenario: Verify that NBCU Summary metrics chart1 loads properly
 Then Summary Reporting chart1
 And take screenshot of the NBCU_Summary Metrics chart1
+
+
+Scenario: Verify that NBCU Summary metrics chart2 loads properly
 Then Summary Reporting chart2
 And take screenshot of the NBCU_Summary Metrics chart2
 

@@ -44,8 +44,8 @@ public void user_is_navigated_to_home_screen() {
 	driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/a[1]")).click();
 	System.out.println("User navigated to home screen");
 	
-	// Commentted out after 9th December release//
-	//driver.findElement(By.xpath("//*[name()='svg']//*[local-name()='g']//*[local-name()='path' and @d='M13 1L1 13M1 1l12 12']")).click(); // line for closing updates tab
+	// Restored out after 22nd December release//
+	driver.findElement(By.xpath("//*[name()='svg']//*[local-name()='g']//*[local-name()='path' and @d='M13 1L1 13M1 1l12 12']")).click(); // line for closing updates tab
 }
 
 @And("^take screenshot$")

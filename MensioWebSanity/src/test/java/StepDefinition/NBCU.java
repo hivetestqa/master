@@ -30,7 +30,7 @@ public class NBCU extends CommonUtilities {
 	{
 		
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[1]/div[4]/div/div")).click();
-	    Thread.sleep(15000);
+	    Thread.sleep(120000);
 		driver.findElement(By.xpath("//div[4]/div/div/div/div/div/div/div/input")).sendKeys("2022"+"\n");	
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[2]/div[1]/div/div")).click();  // click on episode filter 
@@ -126,7 +126,7 @@ public class NBCU extends CommonUtilities {
 	
 	@Then("^user choose Brand in By Brand and Asset type$")
 	public void user_choose_Brand_in_By_Brand_and_Asset_type() throws InterruptedException {
-		Thread.sleep(10000);
+		Thread.sleep(30000);
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[1]/div[1]/div/div")).click();
 		driver.findElement(By.xpath("//input")).sendKeys("Ford");
 		driver.findElement(By.xpath("//input")).sendKeys(Keys.ENTER);
@@ -254,7 +254,9 @@ public class NBCU extends CommonUtilities {
 	}
 	
 	@Then("^user choose Brand for Visual By Occurrence$")
-	public void user_choose_Brand_for_Visual_By_Occurrence() {
+	public void user_choose_Brand_for_Visual_By_Occurrence() throws InterruptedException 
+	{
+		Thread.sleep(40000);
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]")).click();
 		driver.findElement(By.xpath("//input")).sendKeys("Ford"+"\n");
 	}
@@ -306,7 +308,7 @@ public class NBCU extends CommonUtilities {
 	{
 	
 		driver.findElement(By.xpath("//*[@id=\"contents-container\"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[9]/a")).click(); // clicking on verbal by brand tab 
-		Thread.sleep(15000);		
+		Thread.sleep(40000);		
 		WebDriverWait wait1 = new WebDriverWait(driver, 100); 
 		WebElement element = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"contents-container\"]/div/div[2]/div/div[3]/div[1]/div[1]/div/div")));
 		element.click();		
