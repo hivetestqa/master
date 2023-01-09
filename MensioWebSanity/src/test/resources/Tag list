@@ -1,0 +1,22 @@
+Tagging list for feature files:
+
+1. login.feature = "@login"
+2. homescreen.feature = "@Home"
+3. TelevisionByBrand.feature = "@TelevisionByBrand"
+4. TelevisionByTeam.feature = "@TelevisionByTeam"
+5. TelevisionTeamAsBrand.feature = "@TeamAsBrand"
+6. Streaming.feature = "@Streaming"
+7. TheatricalReleases.feature = "@Theatrical"
+8. Social.feature = "@Social"
+9. NBCU.feature = "@NBCU"
+10. NationalTVAdIntelligence.feature = "@NationalTVAd"
+11. CrossPlatformAdIntelligence.feature = "@CrossPlatform"
+12. NationalTVECPM.feature = "@ecpm"
+13. CreativeExplorer.feature = "@CreativeExplorer"
+
+#For executing all the feature files = "@Sanity"
+#For executing Branded Content modules only = "@BrandedContent"
+#For executing AdIntelligence modules only = "@AdIntelligence"
+
+abc
+ 

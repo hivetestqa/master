@@ -1,4 +1,6 @@
-@Sanity @login @NBCU
+@Sanity @login @BrandedContent @AdIntelligence @NBCU @CrossPlatform @TelevisionByBrand 
+@TelevisionByTeam @TeamAsBrand @Streaming @Theatrical @ecpm @Social @CreativeExplorer 
+@TelevisionByTeam
 Feature: Check the login feature of Mensio Web Application
 
   Scenario: To verify that user is able to login using valid credentials

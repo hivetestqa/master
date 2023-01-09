@@ -1,7 +1,6 @@
-@Sanity
+@Sanity @Home
 Feature: Check all items visibility on home screen
 
-@brandedcontent
   Scenario: Verify all the Branded Content Cards are visible
     Then Television by Brand card is visible
     Then Television by Team card is visible
@@ -10,7 +9,6 @@ Feature: Check all items visibility on home screen
     Then Theatrical Releases Card is visible
     Then Social Card is visible
 
-  @adintelligence
   Scenario: Verify all the Ad Intelligence Cards are visible
     Then Creative Explorer Card is visible
     Then National TV Ad Intelligence Card is visible

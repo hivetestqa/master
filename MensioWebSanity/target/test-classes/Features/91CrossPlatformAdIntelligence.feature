@@ -1,7 +1,6 @@
-@Sanity 
+@Sanity @AdIntelligence @CrossPlatform
 Feature: Check all the charts are loading properly in Cross Platform Ad Intelligence Chart
 
-@Sanity @AdIntelligence @CrossPlatform @CrossShareOfVoiceByBrand
 Scenario: Verify that Cross Platform Share of Voice by Brand chart is loading properly
 
 When user click on Cross Platform Ad Intelligence Card
@@ -12,7 +11,6 @@ Then user click on Share of Voice by Brand Owner
 Then Share of Voice by Brand Owner chart gets loaded
 And take screenshot of Share of Voice by Brand Owner chart
 
-@Sanity @AdIntelligence @CrossPlatform @CrossIndexedbyChannel 
 Scenario: Verify that Cross Platform Indexed Spend by Channel chart is loading is properly
 
 When user scroll down to Indexed Spend by Channel section
@@ -22,7 +20,6 @@ Then user click on Indexed Spend by Brand Owner
 Then Indexed Spend by Brand Owner chart gets loaded
 And take screenshot of Indexed Spend by Brand Owner chart
 
-@Sanity @AdIntelligence @CrossPlatform @CrossIndexedSpendMatrixbyChannel 
 Scenario: Verify that Cross Platform Indexed Spend Matrix by Channel chart is loading properly
 
 When user scroll down to Indexed Spend Matrix by Channel section
@@ -32,7 +29,6 @@ Then user click on Indexed Spend Matrix by Brand Owner
 Then Indexed Spend Matrix by Brand Owner chart gets loaded
 And take screenshot of Indexed Spend Matrix by Brand Onwer chart
 
-@Sanity @AdIntelligence @CrossPlatform @CrossCommercialMix 
 Scenario: Verify that Cross Platform Commercial Mix chart is loading properly
 
 When user click on Commercial Mix sidemenu option
@@ -42,7 +38,6 @@ Then user click on Distribution of Estimated Spend by CrossPlatform Ad Format Br
 Then Distribution of Estimated Spend by CrossPlatform Ad Format Brand Owner chart gets loaded
 And take screenshot of Distribution of Estimated Spend by CrossPlatform Ad Format Brand Owner chart
 
-@Sanity @AdIntelligence @CrossPlatform @CrossDeliveryTrends 
 Scenario: Verify that Cross Platform Delivery Trend Charts are loading properly
 
 When user click on Cross Delivery Trends sidemenu option

@@ -1,7 +1,6 @@
- @Sanity @CR
+ @Sanity @CreativeExplorer
 Feature: Check all the creatives are loading properly in Creative Explorer
 
- @CreativeExplorer
 Scenario: Verify that Creative Explorer is loading properly
 
 When user click on Creative Explorer button on home screen

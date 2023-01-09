@@ -1,7 +1,6 @@
-@Sanity @NBCU
+@Sanity @BrandedContent @NBCU
 Feature: Check all the charts in NBCU Custom Module
 
-@NBCU
 Scenario: Verify that NBCU Card is clickable and loads properly
 When user click on NBCU card
 

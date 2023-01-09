@@ -30,7 +30,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/shrad.LAPTOP-AE3NJ1FK/Downloads/commons-io-2.11.0-bin.zip"/>
-	<classpathentry kind="lib" path="C:/Users/shrad.LAPTOP-AE3NJ1FK/Downloads/ashot-1.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/manus/Downloads/commons-io-2.11.0-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/manus/Downloads/ashot-1.5.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
